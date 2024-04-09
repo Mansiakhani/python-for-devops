@@ -1,0 +1,22 @@
+#for i in range(10):
+    #print("Hello mansi", i) 
+
+# for loop using list
+student = ["Mansi", "Jinal", "Maitri", "Mousam"]
+for x in student:
+    print(x)
+
+for y in range(10):
+    print(y+1)
+
+
+log_file = [
+   "INFO: Operation successful",
+   "ERROR: File not found",
+   "DEBUG: Connection established",
+   "ERROR: Database connection failed",
+]
+
+for i in log_file:
+   if "ERROR" in i:
+       print(i)
